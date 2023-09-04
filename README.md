@@ -3,7 +3,7 @@ My WebSite
 
 WSCreator 2023.
 
-Технологии на которых создан сайт:
+Technologies on which the site was created:
 - Vite js
 - Type Script
 - SCSS
@@ -11,13 +11,13 @@ WSCreator 2023.
 - Axios
 - ES6
 - HTML
-- Google fonts
+- Google Fonts
 - Adaptive
 - Responsive
 - Git
-- SEnd Grid REST АPI
+- SEnd Grid REST API
 - BEM
 - W3C
-- Cross-browser compatibility
-- Мгновенная загрузка страниц
-- Семантичный код
+- Cross browser compatibility
+- Instant page loading
+- Semantic code
