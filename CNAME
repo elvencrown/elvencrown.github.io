@@ -1,1 +1,5 @@
-www.elvencrown.github.io
+$ dig WWW.elvencrown.github.io +nostats +nocomments +nocmd
+> ;WWW.elvencrown.github.io.                    IN      A
+> WWW.elvencrown.github.io.             3592    IN      CNAME   elvencrown.github.io.
+> elvencrown.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+> GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
