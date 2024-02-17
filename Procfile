@@ -1,2 +1,1 @@
-web: cd frontend && npm run build
-backend: cd backend && go build -o main && ./main
+web: cd frontend && npm install && npx vite build && cd .. && cd backend && go build -o main && ./main
