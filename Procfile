@@ -1,1 +1,2 @@
-web: cd frontend && npm install && npx vite build && cd .. && cd backend && go build -o main && ./main
+release: npm install --prefix frontend && npx vite build --prefix frontend && go build -o backend/main ./backend
+web: ./backend/main
