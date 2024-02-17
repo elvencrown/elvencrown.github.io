@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func startServer() {
 	// Получаем порт из переменной среды PORT.
 	port := os.Getenv("PORT")
 	if port == "" {
