@@ -1,2 +1,2 @@
-release: npm install --prefix frontend && npx vite build --prefix frontend && go build -o backend/main ./backend
-web: ./backend/main
+web: cd frontend && npx vite build
+worker: cd backend && go build main.go
