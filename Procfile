@@ -1,1 +1,1 @@
-web: npx vite build
+web: node server.js
