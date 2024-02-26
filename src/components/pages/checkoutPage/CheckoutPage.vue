@@ -87,7 +87,7 @@
 			}, 
 
 			productsTitles() {
-			  return this.CART.map(product => product.title).join(', ');
+			  return this.CART.map(product => product.title+'ШТ:'+product.cart_quantity).join(', ');
 			},
 
 			totalSum() {
@@ -430,7 +430,7 @@
 
 						<br>
 						<p>Замовлені товари: </p>		
-						<p v-for="product in CART">- {{ product.title }}: {{product.price}} грн</p>	
+						<p v-for="product in CART">- {{ product.title }}: {{product.price}} грн | ШТ: {{product.cart_quantity}}</p>	
 
 						<br>
 						<p>Загальна сума замовлення: ${{ totalSum }}</p>		
